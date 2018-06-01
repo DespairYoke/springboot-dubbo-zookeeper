@@ -1,6 +1,7 @@
 package com.zwd.app.demo;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.zwd.DemoService;
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ClientService {
 
-    @Reference(version = "1.0.0")
+    @Reference
     DemoService demoService;
 
     public void printHello() {

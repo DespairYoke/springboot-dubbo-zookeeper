@@ -2,6 +2,7 @@ package com.zwd.app.demo;
 
 
 import com.alibaba.dubbo.config.annotation.Service;
+import com.zwd.DemoService;
 
 import javax.annotation.PostConstruct;
 
@@ -10,7 +11,7 @@ import javax.annotation.PostConstruct;
  * @date 2018/5/16 09:19
  * @Email lovejavazwd@gmail.com
  */
-@Service(version = "1.0.0")
+@Service
 public class DemoServiceImpl implements DemoService {
 
     @PostConstruct

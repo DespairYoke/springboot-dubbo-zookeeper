@@ -1,9 +1,9 @@
-package com.zwd.app.demo;
+package com.zwd;
 
 /**
  * @author zwd
- * @date 2018/5/16 09:16
- * @Email lovejavazwd@gmail.com
+ * @date 2018/5/29 19:58
+ * @Email stephen.zwd@gmail.com
  */
 public interface DemoService {
     String sayHello(String name);
